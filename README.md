@@ -10,7 +10,7 @@ Things you may want to cover:
 |------|----|-------|
 |name|Strings|null:false|
 |email|String|null:false,unique|
-| | | |
+|password|String|null:false|
 
 ### Association
 
