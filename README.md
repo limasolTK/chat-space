@@ -32,7 +32,8 @@ Things you may want to cover:
 |text|Strings||
 |group_id|Integer|null:false,foreign_key:true,add_index|
 |user_id|Integer|null:false,foreign_key:true,add_index|
-||||
+|image|String||
+
 ### Association
 
 
