@@ -25,6 +25,7 @@ Things you may want to cover:
 ### Association
 - has_many :group_user
 - has_many :user, through: :group_user
+- has_many :chat
 
 
 ## chatテーブル
