@@ -41,6 +41,9 @@ Things you may want to cover:
 - belongs_to :group
 
 ## group_userテーブル
+|Column|Type|Options|
+|------|----|-------|
+|group_id|Integer|null:false,foreign_key:true|
 
 ### Association
 
