@@ -16,6 +16,10 @@ Things you may want to cover:
 - has_many :group_user
 - has_many :group, through: :group_user
 
+## groupテーブル
+
+### Association
+
 
 * Ruby version
 
