@@ -13,6 +13,8 @@ Things you may want to cover:
 |password|String|null:false|
 
 ### Association
+- has_many :group_user
+- has_many :group, through: :group_user
 
 
 * Ruby version
