@@ -27,7 +27,12 @@ Things you may want to cover:
 
 
 ## chatテーブル
-
+|Column|Type|Options|
+|------|----|-------|
+|text|Strings||
+||||
+||||
+||||
 ### Association
 
 
