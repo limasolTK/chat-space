@@ -30,7 +30,7 @@ Things you may want to cover:
 |Column|Type|Options|
 |------|----|-------|
 |text|Strings||
-||||
+|group_id|Integer|null:false,foreign_key:true,add_index|
 ||||
 ||||
 ### Association
