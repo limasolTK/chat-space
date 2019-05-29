@@ -5,6 +5,9 @@ application up and running.
 
 Things you may want to cover:
 
+## userテーブル
+
+### Association
 * Ruby version
 
 * System dependencies
