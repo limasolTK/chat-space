@@ -9,6 +9,7 @@ Things you may want to cover:
 |Column|Type|Options|
 |------|----|-------|
 |name|Strings|null:false|
+|email|String|null:false,unique|
 | | | |
 
 ### Association
