@@ -22,6 +22,8 @@ Things you may want to cover:
 |name|Strings|null:false|
 
 ### Association
+- has_many :group_user
+- has_many :user, through: :group_user
 
 
 * Ruby version
