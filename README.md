@@ -27,7 +27,7 @@
 ## chatテーブル
 |Column|Type|Options|
 |------|----|-------|
-|text|text|not:null|
+|text|text|null:false|
 |group_id|Integer|null:false,foreign_key:true,add_index|
 |user_id|Integer|null:false,foreign_key:true,add_index|
 |image|String||
