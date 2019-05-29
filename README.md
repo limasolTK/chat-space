@@ -6,8 +6,14 @@ application up and running.
 Things you may want to cover:
 
 ## userテーブル
+|Column|Type|Options|
+|------|----|-------|
+|name|Strings|null:false|
+| | | |
 
 ### Association
+
+
 * Ruby version
 
 * System dependencies
