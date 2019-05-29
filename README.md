@@ -26,6 +26,11 @@ Things you may want to cover:
 - has_many :user, through: :group_user
 
 
+## chatテーブル
+
+### Association
+
+
 * Ruby version
 
 * System dependencies
