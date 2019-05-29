@@ -17,6 +17,9 @@ Things you may want to cover:
 - has_many :group, through: :group_user
 
 ## groupテーブル
+|Column|Type|Options|
+|------|----|-------|
+|name|Strings|null:false|
 
 ### Association
 
