@@ -8,7 +8,7 @@ Things you may want to cover:
 ## userテーブル
 |Column|Type|Options|
 |------|----|-------|
-|name|Strings|null:false|
+|name|String|null:false|
 |email|String|null:false,unique|
 |password|String|null:false|
 
@@ -19,7 +19,7 @@ Things you may want to cover:
 ## groupテーブル
 |Column|Type|Options|
 |------|----|-------|
-|name|Strings|null:false|
+|name|String|null:false|
 
 ### Association
 - has_many :group_user
@@ -29,7 +29,7 @@ Things you may want to cover:
 ## chatテーブル
 |Column|Type|Options|
 |------|----|-------|
-|text|Strings||
+|text|text||
 |group_id|Integer|null:false,foreign_key:true,add_index|
 |user_id|Integer|null:false,foreign_key:true,add_index|
 |image|String||
