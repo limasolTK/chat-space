@@ -9,9 +9,9 @@
 |password|String|null:false|
 
 ### Association
-- has_many :group_user
-- has_many :group, through: :group_user
-- has_many :chat
+- has_many :group_users
+- has_many :groups, through: :group_users
+- has_many :chats
 
 ## groupテーブル
 |Column|Type|Options|
@@ -19,9 +19,9 @@
 |name|String|null:false|
 
 ### Association
-- has_many :group_user
-- has_many :user, through: :group_user
-- has_many :chat
+- has_many :group_users
+- has_many :users, through: :group_users
+- has_many :chats
 
 
 ## chatテーブル
