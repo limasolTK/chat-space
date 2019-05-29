@@ -47,6 +47,8 @@ Things you may want to cover:
 |user_id|Integer|null:false,foreign_key:true|
 
 ### Association
+- belongs_to :group
+- belongs_to :user
 
 * Ruby version
 
