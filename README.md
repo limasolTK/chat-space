@@ -24,10 +24,10 @@
 - has_many :chats
 
 
-## chatテーブル
+## messageテーブル
 |Column|Type|Options|
 |------|----|-------|
-|text|text|null:false|
+|message|text|null:false|
 |group_id|Integer|null:false,foreign_key:true,add_index|
 |user_id|Integer|null:false,foreign_key:true,add_index|
 |image|String||
