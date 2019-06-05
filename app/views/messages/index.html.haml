@@ -1,1 +1,66 @@
-Hello World
+.wrapper
+  .chat-side
+    .side-header
+      .side-header__box
+        %h3.side-header__box__username
+          まそ
+        %ul.side-header__box__menu
+          %li.list
+            = fa_icon 'pencil-square-o', class:"icon"
+          %li.list
+            = fa_icon 'cog', class:"cog"
+    .groups
+      .group
+        .group__group-name
+          テストグループ
+        .group__group-message
+          はろーわーるど
+  .chat-main
+    .main-header
+      .main-header__left-box
+        .main-header__left-box__current-group
+          テストグループ
+        %ul.main-header__left-box__member-list
+          Member：
+          %li.main-header__left-box__member-list__member
+            limasol
+          %li.main-header__left-box__member-list__member
+            limaso
+          %li.main-header__left-box__member-list__member
+            limas
+      .main-header__edit-btn
+        Edit
+    .messages
+      .message
+        .message__upper-info
+          .message__upper-info__talker
+            まそ
+          .message__upper-info__date
+            2019/06/03(Mon) 13:46:32
+        .message__text
+          これはテストです。
+      .message
+        .message__upper-info
+          .message__upper-info__talker
+            まそ
+          .message__upper-info__date
+            2019/06/03(Mon) 13:46:32
+        .message__text
+          これはテストです。
+      .message
+        .message__upper-info
+          .message__upper-info__talker
+            まそ
+          .message__upper-info__date
+            2019/06/03(Mon) 13:46:32
+        .message__text
+          これはテストです。
+    .form
+      %form
+        .new_message
+          .input-box
+            %input.input-box__text{placeholder: "Type a message"}
+            %label.input-box__image
+              = fa_icon 'picture-o', class: 'icon'
+              %input.hidden{type: 'file'}
+            %input.submit{type: 'submit', value: 'Send'}
