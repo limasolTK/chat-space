@@ -17,39 +17,15 @@
         .main-header__edit-btn
           Edit
     .messages
-      .message
-        .message__upper-info
-          .message__upper-info__talker
-            まそ
-          .message__upper-info__date
-            2019/06/03(Mon) 13:46:32
-        .message__text
-          これはテストです。
-      .message
-        .message__upper-info
-          .message__upper-info__talker
-            まそ
-          .message__upper-info__date
-            2019/06/03(Mon) 13:46:32
-        .message__text
-          これはテストです。
-      .message
-        .message__upper-info
-          .message__upper-info__talker
-            まそ
-          .message__upper-info__date
-            2019/06/03(Mon) 13:46:32
-        .message__text
-          これはテストです。
+      = render @messages
+
     .form
-      %form
+      =   form_for [@group, @message] do |f|
         .new_message
           .input-box
-            %input.input-box__text{placeholder: "Type a message"}
-            %label.input-box__image
+            = f.text_field :content, class: 'input-box__text', placeholder: 'type a message '
+            = f.label :image, class: 'input-box__image' do
               = fa_icon 'picture-o', class: 'icon'
-              %input.hidden{type: 'file'}
-            %input.submit{type: 'submit', value: 'Send'}
-
-
-            / chat-sideを分割すること！！！！。
+              = f.file_field :image, class: 'hidden'              
+            = f.submit 'Send', class: 'submit'
+            
