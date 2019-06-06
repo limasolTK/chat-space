@@ -14,24 +14,31 @@
       display: flex;
       &__username{
         font-size: $side_header_font;
+        
       }
       &__menu{
         margin-left: auto;
         display:flex;
+        color: $white;
       }
       &__menu li{
         padding: 2px;
+        .icon {
+          color: $white;
+        }
       }
     }
   }
   .groups{
     .group{
       padding: 20px 20px 0;
-      &__group-name{
+      &__name{
+        color: $white;
         padding-bottom: 5px;
         font-size: $side_group_name;
       }
-      &__group-message{
+      &__message{
+        color: $white;
         padding-bottom: 40px;
         font-size: $side_group_message;
       }

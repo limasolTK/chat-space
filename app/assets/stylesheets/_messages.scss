@@ -8,6 +8,7 @@
       padding: $chat-main-padding;
       border:solid 1px #eeeeee;
       display: flex;
+      justify-content: space-between;
       &__left-box{
         &__current-group{
           padding: 35px 0 0 0;
