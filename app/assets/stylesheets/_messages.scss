@@ -33,8 +33,12 @@
         margin-left: auto;
       }
     }
+
     .messages{
       padding: $chat-main-padding;
+      height: calc(100% - 100px - 90px);
+      box-sizing: border-box;
+      overflow: scroll;
       .message{
         padding-top: 46px;
         &__upper-info{
@@ -56,14 +60,13 @@
         }
       }
     }
+
     .form {
       background-color: #DDDDDD;
       box-sizing: border-box;
       width: $chat-main-width;
       height: 90px;
       padding: 20px 50px 20px 40px;
-      position: absolute;
-      bottom: 0;
       .new_message{
         .input-box{
           display: flex;
