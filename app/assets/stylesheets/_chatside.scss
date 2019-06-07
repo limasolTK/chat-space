@@ -30,6 +30,7 @@
     }
   }
   .groups{
+    overflow: scroll;
     .group{
       padding: 20px 20px 0;
       &__name{
