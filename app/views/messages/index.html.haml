@@ -7,12 +7,9 @@
           = @group.name
         %ul.main-header__left-box__member-list
           Member：
-          %li.main-header__left-box__member-list__member
-            limasol
-          %li.main-header__left-box__member-list__member
-            limaso
-          %li.main-header__left-box__member-list__member
-            limas
+          - @groups.each do |group|
+            %li.main-header__left-box__member-list__member
+              = group.user.name
       = link_to edit_group_path(@group.id) do
         .main-header__edit-btn
           Edit
