@@ -6,10 +6,9 @@
         .main-header__left-box__current-group
           = @group.name
         %ul.main-header__left-box__member-list
-          Member：
-          - @groups.each do |group|
-            %li.main-header__left-box__member-list__member
-              = group.user.name
+          = "Member："
+          %li.main-header__left-box__member-list__member
+            = @members
       = link_to edit_group_path(@group.id) do
         .main-header__edit-btn
           Edit
