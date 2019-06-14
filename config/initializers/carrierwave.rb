@@ -12,6 +12,6 @@ CarrierWave.configure do |config|
     region: 'ap-northeast-1'
   }
 
-  config.fog_directory  = 'upoload-box'
-  config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/upoload-box'
+  config.fog_directory  = 'uppload-box'
+  config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/uppload-box'
 end
